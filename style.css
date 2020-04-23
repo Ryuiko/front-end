@@ -1,0 +1,85 @@
+:root {
+  /* Color */
+  --white-color: #fff;
+  --black-color: #140a00;
+  --blue-color: #0d59ab;
+  --red-color: #ff0000;
+  --gray-dark-color: #202020;
+  --gray-light-color: #e0e0e0;
+
+  /* Size */
+  --padding: 12px;
+  --avatar-size: 36px;
+
+  /* Font Size */
+  --font-extra: 20px;
+  --font-large: 18px;
+  --font-medium: 14px;
+  --font-small: 12px;
+  --font-micro: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro";
+}
+
+ul {
+  list-style: none;
+  color: var(--white-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--gray-dark-color);
+}
+
+.header div {
+  padding: var(--padding);
+}
+
+.header ul {
+  display: flex;
+  /* float: left; */
+}
+
+.header li {
+  padding: 0 var(--padding);
+}
+
+.header .logobox {
+  font-size: var(--font-large);
+}
+
+.header .logobox i {
+  color: var(--red-color);
+}
+
+.header .menu {
+}
+
+.header .menu .content {
+}
+
+.header .user {
+}
+
+.header .user .user-icon {
+}
